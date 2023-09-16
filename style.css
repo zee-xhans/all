@@ -1,0 +1,29 @@
+.cntr {
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  position: absolute;
+  left: 40%;
+}
+
+#inpute {
+  display: flex;
+  width: 301px;
+  height: 70px;
+  font-size: 40px;
+  border-radius: 15px;
+}
+
+button {
+  height: 70px;
+  width: 72px;
+}
+
+.two, .three, .four, .five {
+  margin-top: 5px;
+}
+
+.butn {
+  margin-top: 10px;
+}
+
