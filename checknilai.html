@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>check nilai by zeeshan</title>
+</head>
+<body>
+  <form>
+    <label for="angka">Masukkan nilai: </label>
+    <input type="number" id="one">
+    <input type="button" onclick="checkScr()" value="check">
+    <p id="lihat"></p>
+  </form>
+
+  <u><h1>CHECK NILAI SMP</h1></u>
+  <style>
+    form {
+      position: absolute;
+      top: 50%;
+      left: 33%;;
+    }
+
+    h1 {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+  </style>
+
+  <script>
+    function checkScr() {
+      let a = document.getElementById("one").value;
+      if(a < 76) {
+        document.getElementById("lihat").innerHTML = ("nilai :\n" + "di bawah KKM");
+      } else {
+        document.getElementById("lihat").innerHTML = ("nilai :\n" + "Diatas KKM");
+      }
+    }
+  </script>
+</body>
+</html>
